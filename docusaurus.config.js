@@ -1,6 +1,6 @@
 module.exports = {
   title: 'Mega Utilities Public Wiki',
-  tagline: 'None',
+  tagline: 'PublicWiki',
   url: 'https://megautilities-publicwiki.vercel.app/',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
