@@ -1,16 +1,16 @@
 module.exports = {
-  title: 'My Site',
-  tagline: 'The tagline of my site',
-  url: 'https://your-docusaurus-test-site.com',
+  title: 'Mega Utilities Public Wiki',
+  tagline: 'None',
+  url: 'https://megautilities-publicwiki.vercel.app/',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'MegaUtilities', // Usually your GitHub org/user name.
+  projectName: 'Public Wiki', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'Mega Utilities Public WIki',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'Logo',
         src: 'img/logo.svg',
       },
       links: [
@@ -19,12 +19,6 @@ module.exports = {
           activeBasePath: 'docs',
           label: 'Docs',
           position: 'left',
-        },
-        {to: 'blog', label: 'Blog', position: 'left'},
-        {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
-          position: 'right',
         },
       ],
     },
@@ -35,12 +29,12 @@ module.exports = {
           title: 'Docs',
           items: [
             {
-              label: 'Style Guide',
-              to: 'docs/doc1',
+              label: 'Guide',
+              to: 'docs/Guide',
             },
             {
-              label: 'Second Doc',
-              to: 'docs/doc2',
+              label: 'Article Example',
+              to: 'docs/ArticleExample',
             },
           ],
         },
@@ -48,16 +42,16 @@ module.exports = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'Wiki',
+              href: 'https://megautilitieswiki.herokuapp.com/en/home',
             },
             {
               label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              href: 'https://discord.gg/J9N6evPF8Y',
             },
             {
               label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              href: 'https://twitter.com/MegaUtilities',
             },
           ],
         },
@@ -65,17 +59,13 @@ module.exports = {
           title: 'More',
           items: [
             {
-              label: 'Blog',
-              to: 'blog',
-            },
-            {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/Roleplay-Utilities',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Mega Utilities Public Wiki`,
     },
   },
   presets: [
